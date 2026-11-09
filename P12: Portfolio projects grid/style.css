@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5eee3;
+}
+
+header {
+    background-color: #795548;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #795548;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #795548;
+    text-align: center;
+}
+
+.card h3 {
+    color: #795548;
+}
+
+footer {
+    background-color: #795548;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

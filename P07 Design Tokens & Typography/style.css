@@ -1,0 +1,77 @@
+
+
+:root {
+    --primary-color: blue;
+    --secondary-color: lightblue;
+    --accent-color: orange;
+
+    --small-size: 14px;
+    --medium-size: 18px;
+    --large-size: 28px;
+
+    --small-space: 10px;
+    --medium-space: 20px;
+    --large-space: 30px;
+}
+
+
+
+body {
+    background-color: white;
+    font-family: Arial;
+    margin: 20px;
+}
+
+
+
+header {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: var(--medium-space);
+}
+
+
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+
+h1 {
+    font-size: var(--large-size);
+}
+
+p {
+    font-size: var(--medium-size);
+}
+
+
+
+.small {
+    margin: var(--small-space);
+}
+
+.medium {
+    margin: var(--medium-space);
+}
+
+.large {
+    margin: var(--large-space);
+}
+
+
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: var(--medium-space);
+}
+

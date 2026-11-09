@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4eee5;
+}
+
+
+header {
+    background-color: #0a6dd1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.news {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #022993;
+}
+
+.news h2 {
+    color: #090300;
+}
+
+
+footer {
+    background-color: #0d81e0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
